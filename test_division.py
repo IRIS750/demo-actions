@@ -10,3 +10,6 @@ class TestDividir(unittest.TestCase):
             # manejo de error división por cero
             with self.assertRaises(ZeroDivisionError):
                 dividir(5, 0)
+                
+if __name__ == "__main__":
+    unittest.main()
